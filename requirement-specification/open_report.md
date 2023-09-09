@@ -16,9 +16,8 @@ vegyesen kapják
 meg a diákok, hanem egyszerre csak egy előre megadott tárgy kérdéseiből 
 legyenek kiválasztva.
 
-- <u>Több kvíz típus:</u> Szükség lenne rá, hogy az alkalmazás az 
-Igaz-Hamis és 
-feleletválasztós kérdéseket is támogassa.
+- <u>Több kérdéstípus:</u> Szükség lenne rá, hogy az alkalmazás az 
+Igaz-Hamis és feleletválasztós kérdéseket is támogassa.
 
 - <u>Egyszerű felhasználói felület:</u> Mind a tanárok, mind a diákok 
 számára is 
