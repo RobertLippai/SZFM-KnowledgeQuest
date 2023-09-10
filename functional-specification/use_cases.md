@@ -1,0 +1,2 @@
+## Használati esetek
+A program természetéből adódóan egyféle felhasználótípust kezel. Egy felhaszáló a program futtatásakor először a témaválasztó menüvel találkozik, majd a téma kiválasztása után próbára teheti tudását a válaszott témából kérdések sorozatával. Közben nyomon követheti válaszai helyességét pontszáma segítségével, illetve újraindíthatja a játékot, vagy kiléphet abból. Az idő lejártakor megkapja végső pontszámát, mely után visszatérhet a témaválasztó menübe, vagy kiléphet a programból.

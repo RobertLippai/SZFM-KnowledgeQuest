@@ -1,0 +1,2 @@
+## Megfeleltetés
+A felhasználó a program futtatásakor egy intuitív felületet kezelhet. A megjelenített információkból adódóan könnyen válaszhat témát és válaszlehetőséget, vagy kiléphet a játékból/újraindíthatja azt a megfelelő gomb lenyomásával. A megjelenített pontok alapján nyomon követheti teljesítményét, és az óra alapján könnyen tájékozódhat hátralévő idejéről is.
