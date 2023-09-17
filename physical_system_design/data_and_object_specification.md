@@ -33,3 +33,43 @@
 ---
 - get_random_question(): egy véletlen, még nem választott kérdés szövegével visszatérő függvény
 - reset_used_questions(): törli a már használt kérdések halmazát
+---
+```
+@startuml
+Class GameState {
+ topic : str
+ questions_asked : str[]
+ score_manager : ScoreManager
+ timer : TimerManager
+ --
+ get_topic() : str
+ get_question_asked() : str[]
+ get_score() : int
+ get_timer() : TimerManager
+ increment_score()
+ add_question()
+ reset_game()
+}
+
+Class TimerManager {
+ current_time : int
+ --
+ decrement()
+ reset()
+}
+
+Class ScoreManager {
+ score : int
+ --
+ increment_score()
+ get_score() : int
+ reset_score()
+}
+
+Class QuestionBank {
+ used_questions : str[]
+ get_random_question() : str
+ reset_used_questions()
+}
+@enduml
+```
