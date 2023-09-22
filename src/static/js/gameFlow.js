@@ -10,17 +10,30 @@ $(document).ready(function() {
         let optionsDiv = $('#options');
         optionsDiv.empty();
 
+        /*        $.each(question.options, function(index, option) {
+                    let button = $('<button class="btn btn-light">').text(option);
+                    button.click(function() {
+                        checkAnswer(index);
+                    });
+                    optionsDiv.append(button);
+                });*/
+
         $.each(question.options, function(index, option) {
-            let button = $('<button class="btn btn-light">').text(option);
+            let button = $('<button class="btn btn-light w-100 option-button">').text(option);
             button.click(function() {
                 checkAnswer(index);
             });
-            optionsDiv.append(button);
+
+            let colDiv = $('<div class="col-xl-6 col-lg-12">');
+            colDiv.append(button);
+
+            optionsDiv.append(colDiv);
         });
+
     }
 
     function getQuestion(){
-        $.get('/get_question', function(question) {
+        $.get('/_get_question', function(question) {
             if (!question.end) {
                 displayQuestion(question);
             } else {
@@ -30,7 +43,7 @@ $(document).ready(function() {
     }
 
     function checkAnswer(selectedOption) {
-        $.post(root_url + "check_answer/" + selectedOption + "/" + questionData.correct_option, function(data) {
+        $.post(root_url + "_check_answer/" + selectedOption + "/" + questionData.correct_option, function(data) {
             console.log(selectedOption == questionData.correct_option);
         });
         getQuestion();

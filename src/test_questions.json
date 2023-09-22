@@ -1,6 +1,6 @@
 [
     {
-        "question": "Mi a francia fővárosa?",
+        "question": "Mi Franciaország fővárosa?",
         "options": ["Berlin", "Róma", "Madrid", "Párizs"],
         "correct_option": 3
     },

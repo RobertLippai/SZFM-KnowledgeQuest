@@ -13,9 +13,3 @@ function stateHandle() {
         button.disabled = false; //button is enabled
     }
 };
-
-/*
-document.getElementById('beginGame').addEventListener('click', function() {
-    window.location.href = '/game';
-});
- */

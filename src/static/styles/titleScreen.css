@@ -1,9 +1,9 @@
 body {
     font-family: 'Martian Mono', monospace;
     font-weight: 100;
-    background: linear-gradient(-45deg, rgba(135,135,135,1) 0%, rgba(121,121,121,1) 56%, rgba(91,91,91,1) 100%);
+    background: linear-gradient(-45deg, rgb(143, 143, 143) 0%, rgba(121,121,121,1) 56%, rgb(86, 86, 86) 100%);
     background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 5s ease infinite;
     height: 100vh;
 
     -webkit-user-select: none;
