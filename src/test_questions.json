@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Mi a francia fővárosa?",
+        "options": ["Berlin", "Róma", "Madrid", "Párizs"],
+        "correct_option": 3
+    },
+    {
+        "question": "Melyik bolygó ismert a Vörös bolygóként?",
+        "options": ["Mars", "Vénusz", "Jupiter", "Szaturnusz"],
+        "correct_option": 0
+    },
+    {
+        "question": "Ki írta a 'Rómeó és Júlia' című színművet?",
+        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+        "correct_option": 1
+    },
+    {
+        "question": "Mi az arany kémiai jele?",
+        "options": ["Au", "Ag", "Fe", "Cu"],
+        "correct_option": 0
+    },
+    {
+        "question": "Mi a világ legnagyobb emlőse?",
+        "options": ["Elefánt", "Kék bálna", "Zsiráf", "Víziló"],
+        "correct_option": 1
+    },
+    {
+        "question": "Melyik gáz alkotja a Föld légkörének nagy részét?",
+        "options": ["Oxigén", "Szén-dioxid", "Nitrogén", "Hidrogén"],
+        "correct_option": 2
+    },
+    {
+        "question": "Mi a legnagyobb szerv a emberi testben?",
+        "options": ["Agy", "Máj", "Bőr", "Szív"],
+        "correct_option": 2
+    },
+    {
+        "question": "Ki festette a Mona Lisát?",
+        "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
+        "correct_option": 1
+    },
+    {
+        "question": "Mi a sejtek erőműve?",
+        "options": ["Sejtmag", "Mitokondrium", "Endoplazmatikus retikulum", "Golgi-készülék"],
+        "correct_option": 1
+    },
+    {
+        "question": "Mely évben süllyedt el a Titanic?",
+        "options": ["1909", "1912", "1921", "1935"],
+        "correct_option": 1
+    }
+]
