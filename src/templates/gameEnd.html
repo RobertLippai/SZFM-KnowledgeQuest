@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score</title>
+<style>
+    body {
+        font-family: 'Courier New', monospace;
+        text-align: center;
+        margin: 50px;
+        background-color: black;
+        color: white;
+    }
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    #score {
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    #playAgain {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: white;
+        color: black;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+
+</head>
+<body>
+    <h1>Az idő lejárt.</h1>
+    <div id="score">Pontszám: {{ score }}</div>
+    <button id="playAgain">Új játék</button>
+
+    <script>
+        document.getElementById('playAgain').addEventListener('click', function() {
+            window.location.href = '/';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    font-family: 'Martian Mono', monospace;
+    font-weight: 100;
+    background: linear-gradient(-45deg, rgba(135,135,135,1) 0%, rgba(121,121,121,1) 56%, rgba(91,91,91,1) 100%);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+h1 {
+    color: white;
+}
+
+.card {
+    /* From https://css.glass */
+    background: rgba(212, 175, 152, 0.8);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
