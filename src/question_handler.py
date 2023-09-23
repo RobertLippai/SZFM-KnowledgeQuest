@@ -9,7 +9,7 @@ SCORE = 9
 
 
 def get_topic_names():
-    with open("static/questions.json") as f:
+    with open("static/questions.json", encoding="utf-8") as f:
         topics = json.load(f).get("Topics")
 
     return [topic.get("TopicName") for topic in topics]
@@ -19,7 +19,7 @@ def choose_topic(choice):
     """Returns every question for a given topic as a list, with answers included.
 
     Raises a ValueError if the topic name is not found."""
-    with open("static/questions.json") as f:
+    with open("static/questions.json", encoding="utf-8") as f:
         topics = json.load(f).get("Topics")
 
         if choice not in [topic.get("TopicName") for topic in topics]:
@@ -62,7 +62,7 @@ def get_current_date():
 def get_results():
     """Reads the results and returns them in a list, or an empty list if the file is empty/does not exist."""
     try:
-        with open("results.json", "r") as f:
+        with open("results.json", "r", encoding="utf-8") as f:
             results = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         results = []
@@ -82,7 +82,7 @@ def save_result(result):
     results = get_results()
     results.append(result)
     try:
-        with open("results.json", "w") as f:
+        with open("results.json", "w", encoding="utf-8") as f:
             json.dump(results, f, indent=4)
     except:
         print("Unable to write to file.", file=sys.stderr)

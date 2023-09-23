@@ -5,7 +5,7 @@ $(document).ready(function() {
         questionData = question;
         console.log(questionData);
 
-        $('#question').text(question.question);
+        $('#question').text(question.QuestionText);
 
         let optionsDiv = $('#options');
         optionsDiv.empty();
@@ -18,10 +18,10 @@ $(document).ready(function() {
                     optionsDiv.append(button);
                 });*/
 
-        $.each(question.options, function(index, option) {
-            let button = $('<button class="btn btn-light w-100 option-button">').text(option);
+        $.each(question.Answers, function(index, option) {
+            let button = $('<button class="btn btn-light w-100 option-button">').text(option.AnswerText);
             button.click(function() {
-                checkAnswer(index);
+                checkAnswer(option.Correct);
             });
 
             let colDiv = $('<div class="col-xl-6 col-lg-12">');
@@ -43,8 +43,9 @@ $(document).ready(function() {
     }
 
     function checkAnswer(selectedOption) {
-        $.post(root_url + "_check_answer/" + selectedOption + "/" + questionData.correct_option, function(data) {
-            console.log(selectedOption == questionData.correct_option);
+        console.log(selectedOption)
+        $.post(root_url + "_check_answer/" + selectedOption, function(data) {
+            console.log(selectedOption);
         });
         getQuestion();
     }
