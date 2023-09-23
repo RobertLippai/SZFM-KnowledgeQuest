@@ -1,0 +1,1098 @@
+{
+	"Topics": [{
+		"TopicName": "Földrajz",
+		"Questions": [{
+				"QuestionText": "Hány ország van?",
+				"Answers": [{
+						"AnswerText": "100",
+						"Correct": false
+					},
+					{
+						"AnswerText": "190",
+						"Correct": false
+					},
+					{
+						"AnswerText": "195",
+						"Correct": true
+					},
+					{
+						"AnswerText": "221",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Hol található a Föld legnagyobb vulkánja?",
+				"Answers": [{
+						"AnswerText": "Bolívia",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Hawaii",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Japán",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Új-Zéland",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mi Kanada fővárosa?",
+				"Answers": [{
+						"AnswerText": "Tornto",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Ottawa",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Quebec",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Vancouver",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Hány államból áll az Egyesült Államok?",
+				"Answers": [{
+						"AnswerText": "42",
+						"Correct": false
+					},
+					{
+						"AnswerText": "61",
+						"Correct": true
+					},
+					{
+						"AnswerText": "52",
+						"Correct": false
+					},
+					{
+						"AnswerText": "50",
+						"Correct": true
+					}
+				]
+			},
+			{
+				"QuestionText": "Hány tagállama van az Európai Úniónak?",
+				"Answers": [{
+						"AnswerText": "13",
+						"Correct": false
+					},
+					{
+						"AnswerText": "24",
+						"Correct": true
+					},
+					{
+						"AnswerText": "12",
+						"Correct": false
+					},
+					{
+						"AnswerText": "27",
+						"Correct": true
+					}
+				]
+			},
+			{
+				"QuestionText": "A föld felszínének hány százalékát borítja óceán?",
+				"Answers": [{
+						"AnswerText": "60%",
+						"Correct": false
+					},
+					{
+						"AnswerText": "70%",
+						"Correct": false
+					},
+					{
+						"AnswerText": "71%",
+						"Correct": true
+					},
+					{
+						"AnswerText": "59%",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik országban található Matterhorn?",
+				"Answers": [{
+						"AnswerText": "Svácj",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Franciaország",
+						"Correct": false
+					},
+					{
+						"AnswerText": "USA",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Egyesült Királyság",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik országban található a Mount Everest?",
+				"Answers": [{
+						"AnswerText": "Kína",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Thaiföld",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Mongólia",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Nepál",
+						"Correct": true
+					}
+				]
+			},
+			{
+				"QuestionText": "Hány foknál található a ráktérítő?",
+				"Answers": [{
+						"AnswerText": "25°",
+						"Correct": false
+					},
+					{
+						"AnswerText": "30°",
+						"Correct": false
+					},
+					{
+						"AnswerText": "17,5°",
+						"Correct": false
+					},
+					{
+						"AnswerText": "23°",
+						"Correct": true
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik a Föld legnagyobb országa?",
+				"Answers": [{
+						"AnswerText": "Oroszország",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Kanada",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Kína",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Az Egyesült Államok",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Milyen mély a Mariana-árok?",
+				"Answers": [{
+						"AnswerText": "14 000",
+						"Correct": false
+					},
+					{
+						"AnswerText": "11 035",
+						"Correct": true
+					},
+					{
+						"AnswerText": "11 903",
+						"Correct": false
+					},
+					{
+						"AnswerText": "11 100",
+						"Correct": false
+					}
+				]
+			}
+		]
+	}, {
+		"TopicName": "Irodalom",
+		"Questions": [{
+				"QuestionText": "Ki írta a Szózatot?",
+				"Answers": [{
+						"AnswerText": "Kölcsey Ferenc",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Vitéz Mihály",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Vörösmarty Mihály",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Mátyás király",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Ki írta a Himnuszt?",
+				"Answers": [{
+						"AnswerText": "Petőfi Sándor",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Kölcsey Ferenc",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Arany János",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Dr. Kusper Gábor",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Hány verszakból áll A walesi bárdok?",
+				"Answers": [{
+						"AnswerText": "22",
+						"Correct": false
+					},
+					{
+						"AnswerText": "31",
+						"Correct": true
+					},
+					{
+						"AnswerText": "34",
+						"Correct": false
+					},
+					{
+						"AnswerText": "27",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor írta Arany János a Toldit?",
+				"Answers": [{
+						"AnswerText": "1850",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1842",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1846",
+						"Correct": true
+					},
+					{
+						"AnswerText": "1829",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Ki írta az Egri csillagok c. regényt?",
+				"Answers": [{
+						"AnswerText": "Gárdonyi Géza",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Arany János",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Miszáth Kálmán",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Horváth Géza",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik költőhöz kötődik Léda?",
+				"Answers": [{
+						"AnswerText": "Petőfi Sándor",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Weöres Sándor",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Vörösmarty Mihály",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Ady Endre",
+						"Correct": true
+					}
+				]
+			},
+			{
+				"QuestionText": "Ki írta a Szép versek című költeménygyűjteményt?",
+				"Answers": [{
+						"AnswerText": "Arany János",
+						"Correct": true
+					},
+					{
+						"AnswerText": "József Attila",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Kosztolányi Dezső",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Krúdy Gyula",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Ki írta a Tavaszi Szél Vizet Áraszt című népdalt?",
+				"Answers": [{
+						"AnswerText": "Arany János",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Petőfi Sándor",
+						"Correct": false
+					},
+					{
+						"AnswerText": "József Attila",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Petri György",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik költő nem tüdőgyulladásban halt meg?",
+				"Answers": [{
+						"AnswerText": "Csokonai Vitéz Mihály",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Berzsenyi Dániel",
+						"Correct": false
+					},
+					{
+						"AnswerText": "József Attila",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Ady Endre",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor íródott a Nemzetőr-dal?",
+				"Answers": [{
+						"AnswerText": "1847",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1848",
+						"Correct": true
+					},
+					{
+						"AnswerText": "1849",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1847",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik regényt írta Mikszáth Kálmán?",
+				"Answers": [{
+						"AnswerText": "A Fekete város",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Az aranyember",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Utas és holdvilág",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Egri csillagok",
+						"Correct": false
+					}
+				]
+			}
+		]
+	}, {
+		"TopicName": "Történelem",
+		"Questions": [{
+				"QuestionText": "Mikor egyesült Buda és Pest?",
+				"Answers": [{
+						"AnswerText": "1873",
+						"Correct": true
+					},
+					{
+						"AnswerText": "1910",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1863",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1870",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor volt a honfoglalás?",
+				"Answers": [{
+						"AnswerText": "1000",
+						"Correct": false
+					},
+					{
+						"AnswerText": "895",
+						"Correct": true
+					},
+					{
+						"AnswerText": "790",
+						"Correct": false
+					},
+					{
+						"AnswerText": "899",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor bomlott fel a Szovjetunió?",
+				"Answers": [{
+						"AnswerText": "1986",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1989",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1991",
+						"Correct": true
+					},
+					{
+						"AnswerText": "1998",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Ki volt amerika első elnöke?",
+				"Answers": [{
+						"AnswerText": "George W. Bush",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Thomas Jefferson",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Abraham Lincoln",
+						"Correct": false
+					},
+					{
+						"AnswerText": "George Washington",
+						"Correct": true
+					}
+				]
+			},
+			{
+				"QuestionText": "Ki volt Szent István felesége?",
+				"Answers": [{
+						"AnswerText": "Gizella",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Mária",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Erzsébet",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Adél",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mi volt Szent istván eredeti neve?",
+				"Answers": [{
+						"AnswerText": "Vazul",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Koppány",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Vajk",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Csak István",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor alapították a Magyar Királyságot?",
+				"Answers": [{
+						"AnswerText": "1001",
+						"Correct": false
+					},
+					{
+						"AnswerText": "997",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1000",
+						"Correct": true
+					},
+					{
+						"AnswerText": "1003",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Ki volt a Szovjetunió vezetője 1925-ban?",
+				"Answers": [{
+						"AnswerText": "Vladimir Lenin",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Joseph Stalin",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Georgy Malenkov",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Mikhail Gorbacsev",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Ki volt a kubai felkelés után Kuba vezetője?",
+				"Answers": [{
+						"AnswerText": "Raúl Castro",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Che Guevara",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Huber Matos",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Fidel Castro",
+						"Correct": true
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor végződött a második világháború?",
+				"Answers": [{
+						"AnswerText": "1945",
+						"Correct": true
+					},
+					{
+						"AnswerText": "1941",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1939",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1950",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor alapult a NATO?",
+				"Answers": [{
+						"AnswerText": "1945",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1949",
+						"Correct": true
+					},
+					{
+						"AnswerText": "1956",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1989",
+						"Correct": false
+					}
+				]
+			}
+		]
+	}, {
+		"TopicName": "Filmek",
+		"Questions": [{
+				"QuestionText": "Hány Terminátor film jött ki eddig?",
+				"Answers": [{
+						"AnswerText": "4",
+						"Correct": false
+					},
+					{
+						"AnswerText": "5",
+						"Correct": false
+					},
+					{
+						"AnswerText": "6",
+						"Correct": true
+					},
+					{
+						"AnswerText": "7",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor jelent meg az első Jurassic Park film?",
+				"Answers": [{
+						"AnswerText": "1988",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1993",
+						"Correct": true
+					},
+					{
+						"AnswerText": "1995",
+						"Correct": false
+					},
+					{
+						"AnswerText": "2001",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor jelent meg az első Avatar film?",
+				"Answers": [{
+						"AnswerText": "2003",
+						"Correct": false
+					},
+					{
+						"AnswerText": "2006",
+						"Correct": false
+					},
+					{
+						"AnswerText": "2009",
+						"Correct": true
+					},
+					{
+						"AnswerText": "2011",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor jelent meg az első Star Wars film?",
+				"Answers": [{
+						"AnswerText": "1993",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1987",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1983",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1977",
+						"Correct": true
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor jelent meg az első Die Hard film?",
+				"Answers": [{
+						"AnswerText": "1988",
+						"Correct": true
+					},
+					{
+						"AnswerText": "1989",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1996",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1998",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor jelent meg az első Fast and Furious film?",
+				"Answers": [{
+						"AnswerText": "1998",
+						"Correct": false
+					},
+					{
+						"AnswerText": "2000",
+						"Correct": false
+					},
+					{
+						"AnswerText": "2001",
+						"Correct": true
+					},
+					{
+						"AnswerText": "2003",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Hány Fast and Furious film jelent meg eddig?",
+				"Answers": [{
+						"AnswerText": "6",
+						"Correct": false
+					},
+					{
+						"AnswerText": "8",
+						"Correct": false
+					},
+					{
+						"AnswerText": "12",
+						"Correct": true
+					},
+					{
+						"AnswerText": "14",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Ki alakítja Luke Skywalkert a Star Wars filmekben?",
+				"Answers": [{
+						"AnswerText": "Ewan McGregor",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Mark Hamill",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Harrison Ford",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Anthony Daniels",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor jelent meg a Titanic című film?",
+				"Answers": [{
+						"AnswerText": "1992",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1995",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1997",
+						"Correct": true
+					},
+					{
+						"AnswerText": "2000",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mikor jelent meg az első Harry Potter film?",
+				"Answers": [{
+						"AnswerText": "1998",
+						"Correct": false
+					},
+					{
+						"AnswerText": "1999",
+						"Correct": false
+					},
+					{
+						"AnswerText": "2000",
+						"Correct": false
+					},
+					{
+						"AnswerText": "2001",
+						"Correct": true
+					}
+				]
+			}
+		]
+	}, {
+		"TopicName": "Állatok",
+		"Questions": [{
+				"QuestionText": "Mi a legnagyobb halfaj?",
+				"Answers": [{
+						"AnswerText": "Kalapácsfejű cápa",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Nagy fehér cápa",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Cetcápa",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Tigriscápa",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik madár híres a gyönyörű faroktollairól?",
+				"Answers": [{
+						"AnswerText": "Fehérfejű rétisas",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Páva",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Flamingó",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Bagoly",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mi a világ legkisebb kutyafajtája",
+				"Answers": [{
+						"AnswerText": "Tacskó",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Csivava",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Pomerániai Törpespicc",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Yorkshire Terrier",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik nagymacska ismert egyszínű bundájáról?",
+				"Answers": [{
+						"AnswerText": "Párduc",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Gepárd",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Jaguár",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Oroszlán",
+						"Correct": true
+					}
+				]
+			},
+			{
+				"QuestionText": "Mi az Egyesült Államok nemzeti madara?",
+				"Answers": [{
+						"AnswerText": "Sólyom",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Sas",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Holló",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Keselyű",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik az egyetlen röpképes emlős?",
+				"Answers": [{
+						"AnswerText": "Denevér",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Mókus",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Oposszum",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Hörcsög",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mi a világ legnagyobb szárazföldi állata?",
+				"Answers": [{
+						"AnswerText": "Fehér orrszarvú",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Afrikai elefánt",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Viziló",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Zsiráf",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik erszényes emlős?",
+				"Answers": [{
+						"AnswerText": "Koala",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Lajhár",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Lemur",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Vörös panda",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "What kína nemzeti állata?",
+				"Answers": [{
+						"AnswerText": "Panda",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Vörös koronás daru",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Sárkány",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Hóleopárd",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Melyik hüllő híres színváltoztató képességéről?",
+				"Answers": [{
+						"AnswerText": "Iguána",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Kaméleon",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Teknős",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Gekkó",
+						"Correct": false
+					}
+				]
+			},
+			{
+				"QuestionText": "Mi a legnagyobb pingvinfaj?",
+				"Answers": [{
+						"AnswerText": "Császárpingvin",
+						"Correct": true
+					},
+					{
+						"AnswerText": "Adéli pingvin",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Királypingvin",
+						"Correct": false
+					},
+					{
+						"AnswerText": "Állszíjas pingvin",
+						"Correct": false
+					}
+				]
+			}
+		]
+	}]
+}
