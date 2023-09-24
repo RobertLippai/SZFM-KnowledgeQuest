@@ -1,22 +1,19 @@
-import logging
-
 from flask import Flask, render_template, jsonify, request, redirect
 
 import question_handler
 from gameStateModule import *
 from questionBankModule import *
-from question_handler import choose_topic, get_current_date, save_result, choose_question
+from question_handler import *
 
 app = Flask(__name__)
-app.logger.setLevel(logging.INFO)
 
 question_bank = QuestionBank('test_questions.json')
 current_game = GameState(None, None)
 questions = None
 
-# TODO
-# Set the timer to 60 seconds
-# Create unit tests for app.py
+# FIXED
+# firefox bugged font rendering (áéíő)
+# if questions run out the game cant be restarted
 
 @app.route("/", methods=["GET", "POST"])
 def title_screen():
@@ -51,13 +48,31 @@ def score_screen():
 
     result = {}
     result["PlayerName"] = current_game.get_player_name()
-    result["Score"] = current_game.score_manager.get_score()
+    score = current_game.score_manager.get_score()
+    asked = current_game.get_number_of_asked_questions()
     result["Topic"] = current_game.get_topic()
     result["Date"] = get_current_date()
 
+    result["Score"] = (score/asked)*100
+    # save the results
     save_result(result)
+
+    # Kinyerjük az első 5 embert a get_high_scores függvénnyel
+    high_scores = get_high_scores()
+    while len(high_scores) < 5:
+        high_scores.append({
+            "PlayerName": "-",
+            "Score": 0,
+            "Topic": "-",
+            "Date": "0000.00.00. 00:00:00"
+        })
+
     print("Printing game info: " + str(current_game))
-    return render_template("gameEnd.html", score=current_game.score_manager.get_score())
+
+    number_of_asked_question = current_game.get_number_of_asked_questions()
+
+    return render_template("gameEnd.html", score=current_game.score_manager.get_score(), high_scores=high_scores, number_of_asked_question=number_of_asked_question)
+
 
 
 @app.route("/game", methods=["GET"])
@@ -104,7 +119,6 @@ def get_question():
     return jsonify(new_question)
 
 
-# For questionBankModule
 #@app.route("/_check_answer/<int:selected_option>/<int:correct_option>", methods=['POST'])
 #def check_answer(selected_option, correct_option):
 #    global current_game
@@ -121,13 +135,15 @@ def get_question():
 def check_answer(is_correct):
     global current_game
 
+    print(is_correct)
+
     if is_correct == "true":
         result = "Correct!"
         current_game.score_manager.increment_score()
     else:
         result = "Incorrect :("
 
-    app.logger.info('The answer was %s', result)
+    print(result)
     return jsonify({'result': result})
 
 if __name__ == "__main__":
