@@ -9,7 +9,7 @@
         font-family: 'Courier New', monospace;
         text-align: center;
         margin: 50px;
-        background-color: black;
+        background: gray;
         color: white;
     }
     h1 {
@@ -28,14 +28,84 @@
         color: black;
         border: none;
         cursor: pointer;
+        margin-top: 2rem;
     }
+    .table{
+        margin: auto;
+        margin-top: 2rem;
+        border-collapse: collapse;
+        width: 50%;
+        height: 20rem;
+        min-width: 15rem;
+        color:black;
+        font-weight: bold;
+    }
+    thead{
+        height: 2.5rem;
+    }
+    td{
+        text-align: center;
+        margin-top: 1.2rem;
+        margin-left: 2rem;
+        border: 2px solid;
+        
+    }
+    th{
+        margin-top: 1.2rem;
+        margin-left: 0rem;
+        border: 2px solid;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    tr{
+        background-color: rgb(250, 196, 135);
+    }
+    tr:nth-child(even) {background-color: rgba(250, 196, 135, 0.699);}
 </style>
 
 </head>
 <body>
     <h1>A játéknak vége!</h1>
-    <div id="score">Pontszám: {{ score }}</div>
+    <div id="score">Pontszám: {{ score }}/{{number_of_asked_question}}</div>
     <button id="playAgain">Új játék</button>
+
+    
+    <table class="table">
+        
+        <tbody>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Név</th>
+            <th scope="col">pont százalékosan</th>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>{{ high_scores[0].PlayerName }}</td>
+            <td> {{ "%.2f" | format(high_scores[0].Score) }}</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>{{ high_scores[1].PlayerName }}</td>
+            <td>{{ "%.2f" | format(high_scores[1].Score) }}</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>{{ high_scores[2].PlayerName }}</td>
+            <td>{{ "%.2f" | format(high_scores[2].Score) }}</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>{{ high_scores[3].PlayerName }}</td>
+            <td>{{ "%.2f" | format(high_scores[3].Score) }}</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>{{ high_scores[4].PlayerName }}</td>
+            <td>{{ "%.2f" | format(high_scores[4].Score) }}</td>
+          </tr>
+        </tbody>
+      </table>
+
 
     <script>
         document.getElementById('playAgain').addEventListener('click', function() {

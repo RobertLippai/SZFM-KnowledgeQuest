@@ -1,0 +1,51 @@
+Tesztnaplo
+
+Projekt neve: Kusper háziprojekt
+Teszt dátuma: 2023.09.24.
+
+Tesztesetek:
+
+endGame oldal tesztelése
+
+1.Tesztesett: Aktuális pontszám leenőrzése
+leírás: Kvíz végén megjelenik megfelelően a játékos aktuális pontszáma.
+Előfeltételek: A kvíz végigvitele.
+Végrehajtása:
+	1. python kód elindítása
+	2. oldal meglátogatása
+	3. játék végigjátszáa
+Eredmény: helyesen jelenik meg pontszám.
+
+3.Tesztesett: Új játék gomb
+Leírás: endGame.html oldalra érve újra elkezdhetjük a játékot az "új játék" gomb lenyomásával
+Előfeltétel: A kvíz végigvitele.
+Végrehajtás:
+	1. python kód elindítása
+	2. oldal meglátogatása
+	3. játék végigjátszáa
+	4. gomb lenyomása
+Eredmény: A játék újra elkezdődött.
+
+2.Tesztesett: Eredméyntábla helyes működése
+Leírása: A kvíz végén megjelenő eredménytábla helyesen jeleníti meg a játékosok nevét, pontját és sorrendjét
+Előfeltétel: Legalább 2x végigvinni a kvízt
+Végrehajtás:
+	1. python kód elindítása
+	2. oldal meglátogatása
+	3. kvíz végigvitele
+	4. gomb lenyomása
+	5. kvíz újboli végigvitele
+Eredmény: A táblázatban helyesen jelenik meg a név és a pontszám mindez növekvő sorrendben.
+
+Eredmények:
+1.Tesztesett: Sikeres
+2.Tesztesett: Sikeres
+3.Tesztesett: Sikeres
+
+Hibák vagy megjegyzések:
+Nincsenek
+
+Tesztelő információk:
+
+Tesztelő neve: Félegyházi Gergő
+Tesztelés időpontja: 2023.09.24
