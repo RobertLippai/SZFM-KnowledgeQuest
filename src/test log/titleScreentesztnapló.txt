@@ -1,0 +1,38 @@
+Tesztnaplo
+
+Projekt neve: Kusper háziprojekt
+Teszt dátuma: 2023.09.25.
+
+Tesztesetek:
+
+titleScreen oldal tesztelése
+
+1.Tesztesett: Aktuális játékos nevének megadása és elmentése
+leírás: Kvíz elején megadjuk a játékos nevét.
+Előfeltételek: A kvíz megnyitása.
+Végrehajtása:
+	1. python kód elindítása
+	2. oldal meglátogatása
+	3. Játékos név megadása
+Eredmény: A játékos megtudja adni a nevét. A játékosnevet elmentette a quiz.
+
+2.Tesztesett: A quiz témája kiválasztható
+leírás: Kvíz elején a játékos kiválaszthatja egy listábol hogy a quiz kérdései milyen témájuak legyenek.
+Előfeltételek: A kvíz megnyitása.
+Végrehajtása:
+	1. python kód elindítása
+	2. oldal meglátogatása
+	3. téma kiválasztása
+Eredmény: A quiz kérdései mindig a kiválasztott témábol vannak.
+
+Eredmények:
+1.Tesztesett: Sikeres
+2.Tesztesett: Sikeres
+
+Hibák vagy megjegyzések:
+Nincsenek
+
+Tesztelő információk:
+
+Tesztelő neve: Kiss Gergely
+Tesztelés időpontja: 2023.09.25

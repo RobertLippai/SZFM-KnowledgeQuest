@@ -1,0 +1,39 @@
+Tesztnaplo
+
+Projekt neve: Kusper háziprojekt
+Teszt dátuma: 2023.09.25.
+
+Tesztesetek:
+
+GamePlay oldal tesztelése
+
+1.Tesztesett: Aktuális kérdés megjelenítése
+leírás: Kvíz kitoltése közben megfelelően megjelenik az aktuális kérdés és a válaszlehetőségek.
+Előfeltételek: A kvíz elkezdése.
+Végrehajtása:
+	1. python kód elindítása
+	2. oldal meglátogatása
+	3. játék elkezdése
+Eredmény: helyesen jelenik meg az aktuális kérdés és válaszok.
+
+2.Tesztesett: Válasz gombok
+Leírás: A quiz kérdéseire a válasz szövegét tartalmazó gombra kattintással válaszolhatunk
+Előfeltétel: A kvíz elkezdése.
+Végrehajtás:
+	1. python kód elindítása
+	2. oldal meglátogatása
+	3. játék elkezdése
+	4. gomb lenyomása
+Eredmény: A kérdésnél a játékos válasza pontosan az amelyik gombra rákattintott.
+
+Eredmények:
+1.Tesztesett: Sikeres
+2.Tesztesett: Sikeres
+
+Hibák vagy megjegyzések:
+Nincsenek
+
+Tesztelő információk:
+
+Tesztelő neve: Kiss Gergely
+Tesztelés időpontja: 2023.09.25
