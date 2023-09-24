@@ -1,0 +1,7 @@
+adatok attributumok: A rendszer használja a játékosok nevét és pontját
+
+Adattipusok: név -> szöveg, pontok -> float, tipus -> szöveg, dátum -> date
+
+Értéktartományok: nincs
+
+Kapcsolatok:	nincs

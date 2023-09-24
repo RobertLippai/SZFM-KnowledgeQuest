@@ -1,0 +1,7 @@
+1. folyamatok:	Kérdésre adott válaszok kiválasztásának feldolgozása
+
+2. Adatfolyamatok: Név,témea és a kvízk kitöltése után kapott eredményének kapott adatok feldolgozása
+
+3. Adatforrés: Játékosokról lévő adatbázis
+
+4. Adatállapot: Játékos adatbázis, ami tárolja név, pont, tipus és mikor töltötte ki

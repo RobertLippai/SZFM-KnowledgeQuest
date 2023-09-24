@@ -1,0 +1,29 @@
+Funkcionális követelmények:	Be kell kérnie egy nevet amit később el tud tárolni a pontjaival együtt. Ki kell tudni választani milyen témában akarja a kvízt csinálni. Kvíz közben egy visszaszámlálónak működnie kell. Legvégén ki kell írni mennyi pontot értünk el majd egy eredméyntáblának megjelenni a legjobb 5 teljesítménnyel.
+
+Rendszerarchitektura:	1. Felhasználói felület ahol megtudják adni a nevüket és kiválasztani a kvíz témáját.
+			2. Újrakezdési lehetőség ahol a játék kiírja az aktuális pontod, top5 játékost és itt újrakezdheti a játékot.
+			3. Adatbázis ami egy json-be van tárolva a kérdések válaszokkal és a játékosok neve,pontja,milyen témában volt és mikor csinálták.
+Rendszer kapcsolata:	html kód egy python kóddal van összekapcsolva ami működteti a visszaszámlót, ahonnan kinyerhető  a top5 játékos is és az aktuális pontszámot is.
+			python összevan kapcsolva json-el ami eltárolja a felhasználok nevét,pontját,témáját és hogy mikor csinéálták a tesztet.
+
+Funkcionális folyamat: Név bevitele, téma kiválasztása, válasz kiválasztása, játék újrakezdése.
+
+Adatfolyam:	Kvíz Kiválasztása
+
+		A felhasználó választ egy kvízt a rendelkezésre álló lehetőségek közül.
+		A rendszer lekéri a kiválasztott kvíz kérdéseit és válaszlehetőségeit az adatbázisból.
+		Kvíz Játék
+
+		A felhasználó megjeleníti a kvízkérdést és kiválasztja a választ a rendelkezésre álló lehetőségek közül.
+		A választ elküldik a szervernek a kvíz eredményének számításához.
+		A szerver ellenőrzi a választ, és rögzíti az eredményt az adatbázisban.
+		Eredmények Megjelenítése
+
+		A felhasználónak megjelenítik az aktuális eredményét, beleértve a helyes válaszok számát és a pontszámot.
+		Az eredményeket az adatbázisból lekérjük és megjelenítjük a felhasználónak.
+		Ranglista Frissítése
+
+		Az aktuális eredményeket hozzáadják a felhasználó ranglistájához, ha az meghaladja a korábbi eredményeket.
+		A ranglistát az adatbázisban frissítik.
+			
+			
